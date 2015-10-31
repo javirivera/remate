@@ -1,0 +1,39 @@
+section.main-wrap
+  +outer-container
+  margin-top: 5vh
+  max-width: 460px
+  text-align: center
+  .logo
+    width: 100%
+    padding: 20px
+    img
+      display: block
+      max-width: 160px
+      margin: 0 auto
+  .logo-text
+    color: #EE3524
+    margin: 0 auto
+    font-size: $base-font-size * 3.25
+    
+section.social
+  +outer-container
+  margin-top: 60px
+  .social-icons
+    li
+      display: inline
+      padding: 0 20px
+      a
+        color: black
+      a:hover
+        color: gray
+    text-align: center
+  
+@media (min-width: 580px)
+  section.main-wrap
+    +outer-container
+    margin-top: 25vh
+    .logo
+      img
+        max-width: 200px
+    .logo-text
+      font-size: $base-font-size * 4.25
