@@ -37,3 +37,12 @@ section.social
         max-width: 200px
     .logo-text
       font-size: $base-font-size * 4.25
+      
+.page-home
+  +animation(fadeIn 1.5s ease-in, pulse 1.5s ease)
+  
+  +keyframes(fadeIn)
+    from
+      opacity: 0
+    to
+      opacity: 1
