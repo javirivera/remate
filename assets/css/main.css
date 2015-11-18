@@ -695,6 +695,29 @@ section.social .social-icons li a:hover {
   color: gray;
 }
 
+.page-home {
+  -webkit-animation: fadeIn 1.5s ease-in, pulse 1.5s ease;
+  animation: fadeIn 1.5s ease-in, pulse 1.5s ease;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @media (min-width: 580px){
   section.main-wrap{
     max-width: 68em;
